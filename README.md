@@ -1,18 +1,50 @@
 # 📈 Indian Stock Market Analytics Dashboard
 
-An end-to-end Data Analytics project that analyzes historical Indian stock market data using **Excel, MySQL, SQL, DAX, and Power BI** to generate meaningful business insights through interactive dashboards.
+An end-to-end Data Analytics project that analyzes historical Indian stock market data using **Microsoft Excel, MySQL, SQL, DAX, and Power BI** to generate meaningful business insights through interactive dashboards.
 
 ---
 
 # 📌 Project Overview
 
-This project presents an end-to-end analysis of historical Indian stock market data for **65 NSE-listed companies** from **2000 to 2021**. The dataset was cleaned, transformed, and analyzed using **Excel, MySQL, SQL, and DAX** before being visualized in **Power BI** to uncover market trends, company performance, trading behaviour, and delivery-based insights.
+This project presents an end-to-end analysis of historical Indian stock market data for **65 NSE-listed companies** between **2000 and 2021**. The workflow includes data cleaning and transformation in Excel, data storage and analysis using MySQL & SQL, and interactive dashboard development in Power BI to uncover market trends, company performance, trading behaviour, and delivery-based insights.
+
+---
+
+# 📸 Dashboard Preview
+
+## Executive Dashboard
+
+![Executive Dashboard](Dashboard%20Images/Executive_Dashboard.png)
+
+---
+
+## Company Analysis
+
+![Company Analysis](Dashboard%20Images/Company_Analysis.png)
+
+---
+
+## Market Trends
+
+![Market Trends](Dashboard%20Images/Market_Trends.png)
+
+---
+
+## Delivery & Trading Behaviour Analysis
+
+![Delivery Analysis](Dashboard%20Images/Delivery_Analysis.png)
+
+---
+
+## Project Summary & Key Insights
+
+![Project Summary](Dashboard%20Images/Project_Summary.png)
 
 ---
 
 # 🎯 Project Objective
 
-Develop an end-to-end Stock Market Analytics Dashboard that transforms raw historical stock market data into meaningful business insights using Excel, MySQL, SQL, DAX, and Power BI.
+To develop an end-to-end Stock Market Analytics Dashboard that transforms historical NSE stock market data into meaningful business insights through data cleaning, SQL analysis, and interactive Power BI visualizations.
 
 ---
 
@@ -26,11 +58,47 @@ Develop an end-to-end Stock Market Analytics Dashboard that transforms raw histo
 
 ---
 
+# 📊 Dataset Information
+
+- **Market:** National Stock Exchange (NSE), India
+- **Companies Analyzed:** 65
+- **Time Period:** 2000–2021
+- **Data Formats:** Excel (.xlsx) & CSV (.csv)
+- **Database:** MySQL
+
+---
+
+# 🔄 Project Workflow
+
+Raw Stock Market Data (Excel)
+
+⬇
+
+Data Cleaning & Transformation (Excel)
+
+⬇
+
+Import into MySQL
+
+⬇
+
+SQL Data Preparation & Business Analysis
+
+⬇
+
+Power BI Dashboard Development
+
+⬇
+
+Business Insights & Data Visualization
+
+---
+
 # 📊 Dashboard Pages
 
 ## 1️⃣ Executive Dashboard
 
-Provides a high-level overview of the stock market through key performance indicators including:
+Provides a high-level overview of the stock market through KPIs and summary visualizations including:
 
 - Total Turnover
 - Total Trading Volume
@@ -55,7 +123,7 @@ Analyzes company-wise performance through:
 
 ## 3️⃣ Market Trends
 
-Analyzes yearly market performance through:
+Provides year-wise market performance analysis including:
 
 - Total Turnover by Year
 - Total Trading Volume by Year
@@ -66,7 +134,7 @@ Analyzes yearly market performance through:
 
 ## 4️⃣ Delivery & Trading Behaviour Analysis
 
-Provides insights into delivery-based trading patterns through:
+Provides insights into trading behaviour and delivery statistics through:
 
 - Top Companies by Average Deliverable Percentage
 - Delivery Category Distribution
@@ -88,21 +156,21 @@ Summarizes the project through:
 
 # 📈 Key Business Insights
 
-- Market turnover exhibited a strong upward trend over the years.
+- Market turnover increased significantly between 2000 and 2021, indicating sustained growth in trading activity.
 - RELIANCE, SBIN, and ICICIBANK consistently ranked among the top companies by turnover.
-- Trading Volume and Turnover demonstrated a strong positive relationship.
-- Medium delivery category accounted for more than 50% of all trading observations.
-- Average Daily Return across the dataset was slightly negative (-0.08%).
+- Trading Volume and Turnover showed a strong positive relationship across the dataset.
+- The Medium delivery category accounted for over half of all trading observations.
+- The average daily return across the dataset was slightly negative (-0.08%).
 - Higher delivery percentages did not consistently correspond to higher average daily returns.
 
 ---
 
 # 🧹 Data Cleaning & Preparation
 
-The following preprocessing steps were performed before analysis:
+The dataset was prepared before analysis by performing the following steps:
 
 - Removed duplicate records
-- Corrected data types
+- Corrected inconsistent data types
 - Handled missing values
 - Converted percentage columns
 - Created calculated columns
@@ -115,11 +183,15 @@ The following preprocessing steps were performed before analysis:
 
 SQL was used for:
 
+- Data Import
+- Data Preparation
+- Data Validation
 - Data Exploration
 - Aggregate Analysis
 - Company-wise Analysis
 - Ranking Functions
 - Window Functions
+- Common Table Expressions (CTEs)
 - Business Queries
 
 ---
@@ -128,11 +200,10 @@ SQL was used for:
 
 - Interactive Dashboard
 - KPI Cards
-- Dynamic Filtering
-- DAX Measures
 - Interactive Slicers
 - Dynamic Titles
 - Cross Filtering
+- Custom DAX Measures
 - Business Visualizations
 
 ---
@@ -152,41 +223,26 @@ SQL was used for:
 
 ---
 
-# 📂 Repository Structure
+# 📂 Repository Contents
 
-```
-Indian-Stock-Market-Analytics-Dashboard
-│
-├── Data
-│   └── Stock_Market_Dataset.xlsx
-│
-├── SQL
-│   ├── Database_Schema.sql
-│   └── Analysis_Queries.sql
-│
-├── Power BI
-│   └── Indian_Stock_Market_Analytics_Dashboard.pbix
-│
-├── Dashboard Images
-│   ├── Executive_Dashboard.png
-│   ├── Company_Analysis.png
-│   ├── Market_Trends.png
-│   ├── Delivery_Analysis.png
-│   └── Project_Summary.png
-│
-└── README.md
-```
+| Folder | Description |
+|---------|-------------|
+| 📁 Data | Raw Excel dataset and cleaned CSV used for analysis |
+| 📁 SQL | SQL scripts containing data preparation and business analysis queries |
+| 📁 Power BI | Power BI Dashboard (.pbix) file |
+| 📁 Dashboard Images | Dashboard screenshots |
+| 📄 README.md | Project documentation |
 
 ---
 
 # 🚀 Future Enhancements
 
 - Sector-wise Analysis
-- NIFTY 50 Comparison
+- NIFTY 50 Benchmark Comparison
 - Live Data Integration
 - Technical Indicators
-- Moving Averages
-- Predictive Analytics
+- Moving Average Analysis
+- Predictive Analytics using Python
 
 ---
 
@@ -200,4 +256,20 @@ Guru Tegh Bahadur Institute of Technology
 
 ---
 
-⭐ If you found this project useful, consider giving it a star!
+## 📌 Project Highlights
+
+✔ End-to-End Data Analytics Project
+
+✔ Data Cleaning & Transformation
+
+✔ SQL-Based Business Analysis
+
+✔ Interactive Power BI Dashboard
+
+✔ Business Intelligence & Data Visualization
+
+✔ Portfolio Project for Data Analytics Roles
+
+---
+
+*This project demonstrates a complete end-to-end data analytics workflow, from raw data preprocessing to interactive dashboard development and business insight generation using Microsoft Excel, MySQL, SQL, DAX, and Power BI.*
